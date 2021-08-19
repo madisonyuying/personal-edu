@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<body>
+  <table>
+      
+      <!--
+          nest the table elements inside <table>
+      -->
+      <thead>
+          <!--
+              <thead> defines a table heading for columns encapsulated in table rows
+          -->
+      <th>
+          <!--
+              <th> table heading element adds titles to rows and columns 
+              must be enclosed in <tr>
+          -->
+      </th>
+      </thead>
+      <tbody>
+          <!--
+              contains all table data other than the header and footer 
+              <tbody> will contain ALL <tr>
+              <table> cannot have <tbody> AND <tr> as children
+          -->
+          <tr>
+            <!--
+                <tr> creates table row
+            -->
+            <td>
+                <!--
+                    <td> can be nested inside <tr> to add cells of data to tables
+                -->
+            </td>
+        </tr>
+      </tbody>
+  </table>
+</body>
+</html>
 
+<!--
+    table attributes
+    colspan: on <th> or <td> indicates how many columns that cell should span within the table 
+        any integer between 1 and 1000 
+    rowspan: on <th> or <td> indicates how many rows that cell should span within the table
+        value set to 1 by default will take any positive integer up to 65534
+-->
