@@ -1,1 +1,95 @@
-
+<!DOCTYPE html>
+<body>
+    <input type="checkbox" name="" value="title"> Title<br>
+    <!--
+        this is for checkbox inputs
+        type="checkbox" attribute will create a single checkbox
+        a group of checkboxes should use the same name attribute
+    -->
+    <!--
+        <input> is a self closing element
+    -->
+    <textarea rows="x" cols="y" name="comment"></textarea>
+      <!--
+        creates an x by y text box in browser
+      -->
+    <form method="" action="source to pass to">
+          <!--
+            collects and sends info to another source
+            passed to source named in action attribute
+          -->
+        <input type="number" name=""/>
+          <!--
+            number type input
+            form recieves key:value pair 
+            name:value
+            name attribute becomes key and input becomes value in key:value pair
+          -->
+        <label for="firstname">First name:</label>
+          <!--
+            label
+            provides identification for input based on input's id and label's for attribute
+          -->
+        <input type="text" name="firstname" id="firstname">
+        <input type ="range" name="name" min="minvalue" max="maxvalue" step="stepsize">
+          <!--
+            input range type
+            min value
+            max value
+            step size between values
+          -->
+        <select name="name">
+          <option value="option1">Option1</option>
+          <option value="option2">Option2</option>
+          <!--
+              <select> can create a dropdown list
+              options for the dropdown list are created by <option>
+              value of <select>'s name and <option>'s value are submitted as a key:value pair
+          -->
+        </select>
+        <input type="text" name="name" minlength="8" maxlength="12" pattern="[A-Za-z]{7}">
+        <!--
+            renders a single row input field that users can type text within
+        -->
+        <!--
+            minlength and maxlength attribute 
+            used with type="text"
+            text field now has a min length of 8
+            text field now has a max length of 12
+        -->
+        <!--
+            pattern attribute
+            regex to validate value of input
+            this example seven letter code
+        -->
+        <input list="datalistid">
+          <!--
+              list value must be equal to the id value of datalist
+          -->
+        <datalist id="datalistid">
+          <option value="op1"></option>
+          <option value="op2"></option>
+        </datalist>
+        <input name="same" type="radio" value="one">
+        <input name="same" type="radio" value="two">
+        <!--
+            input radio button
+            both of the above radio buttons have the same name which creates related topic radio buttons
+        -->
+        <input type="submit" value="submit">
+          <!--
+              default submit button is Submit
+              if given a value attribute you can alter the rendering
+          -->
+        <input type="password" name="password" required>
+          <!--
+              input type password
+              renders a single row input field and allows user to input censored text
+          -->
+          <!--
+              required attribute
+              can be written as required or required="true"
+          -->
+    </form>
+</body>
+</html>
