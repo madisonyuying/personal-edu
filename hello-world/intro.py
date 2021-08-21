@@ -9,6 +9,9 @@ phone = 1000
 # phone2 is a floating point number
 phone2 = 1000.0
 
+# floating point
+pi = 3.14159265
+# numbers with fractional quantities
 
 # use hashes to create comments. comment continues until end of line
 result = 5 + 12
