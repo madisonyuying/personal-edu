@@ -1,5 +1,5 @@
 #Variables: can contain letters, numbers, and underscores
-user_Name = "five_Head"
+userName = "five_Head"
  # to assign a value to a variable use a single (=)
 
 #python uses camel case
