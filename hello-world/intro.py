@@ -3,6 +3,12 @@ user_Name = "five_Head"
  # to assign a value to a variable use a single (=)
 
 #python uses camel case
+#integers
+phone = 1000
+# phone is an integer value 
+# phone2 is a floating point number
+phone2 = 1000.0
+
 
 # use hashes to create comments. comment continues until end of line
 result = 5 + 12
