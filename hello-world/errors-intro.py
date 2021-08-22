@@ -19,3 +19,19 @@ syntaxError = 10 + 13 = 23
 numberDogs = 5
 numberDgs = numberDogs + 1 
 # would yield a name error
+
+
+# try and except blocks can be used to handle error within a code block
+    # code that may raise and error will be written in a try block 
+    # if an error arrises the try block will cease execution and the except block will execute
+def ageDogYears(myAge):
+    olderYears = ( myAge - 2 ) * 7
+    youngerYears = 2
+    dogYears = olderYears + youngerYears
+    print(dogYears)
+
+try ageDogYears(19):
+    print("Your age in dog years")
+
+except: 
+    print(error)
