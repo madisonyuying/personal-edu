@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 void arithmetic_operators(void);
 /* Name: void arithmetic_operators(void)
 * Desc: Demonstration of Arithmetic Operators
