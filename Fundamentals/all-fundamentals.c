@@ -33,9 +33,10 @@
 /* Function prototypes */
 int get_info(void); // print info about user
 int Figure_2_1(); // calls demo figure_2_1
-void projectile_1D_v1(void);
-void projectile_2D_v1(void);
-void simple_supported_beam_v1(void);
+// void projectile_1D_v1(void);
+// void projectile_2D_v1(void);
+// void simple_supported_beam_v1(void);
+int  arithmetic_operators(void)
 
 
 
@@ -44,9 +45,10 @@ int main (int argc, char** argv){
    int index;
    // get_info(); // calls our get_info function
    // Figure_2_1(); // calls figure_2_1
-   projectile_1D_v1(); // calls 1D version
-   projectile_2D_v1(); // calls 2D version
-   simple_supported_beam_v1(); // calls beam 
+   // projectile_1D_v1(); // calls 1D version
+   // projectile_2D_v1(); // calls 2D version
+   // simple_supported_beam_v1(); // calls beam 
+   arithmetic_operators(); // calls arithmetic operators
 
     return (EXIT_SUCCESS);
 }
